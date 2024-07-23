@@ -1,11 +1,11 @@
 package br.com.dio.desafio.dominio;
 
-public class Questao {
+public class Pergunta {
 
     private String pergunta;
     private Integer respostaCorreta;
 
-    public Questao (String pergunta, Integer respostaCorreta){
+    public Pergunta(String pergunta, Integer respostaCorreta){
         this.pergunta = pergunta;
         this.respostaCorreta = respostaCorreta;
 
